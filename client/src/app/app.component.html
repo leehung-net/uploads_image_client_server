@@ -1,0 +1,6 @@
+<form action="/uploadFiles"
+ method="post"  enctype="multipart/form-data" name="ajaxUploadForm">
+  <input type="file" multiple="multiple" accept="image/*" name="uploadedImages" /><br/>
+  <div id="uploadedImages"></div>
+  <button (click)="upload()">Upload</button>
+</form>

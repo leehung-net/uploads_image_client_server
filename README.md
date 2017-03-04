@@ -3,4 +3,4 @@
     npm starts
 # For Client: 
     npm install
-    ng serve			
+    ng start			
